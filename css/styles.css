@@ -23,6 +23,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    
 }
 
 header a {
@@ -185,13 +187,15 @@ header .menu button:hover {
 }
 
 .container-presentation {
-    margin: 10px;
+
+    margin: 20px;
     background-color: white;
     box-shadow: 0 0 5px silver;
-    margin-top: 15%;
     opacity: 0;
     transform: translateY(20px);
     animation: fadeIn 0.5s ease-in-out forwards;
+    
+    margin-top: calc(9%);
 
 }
 
