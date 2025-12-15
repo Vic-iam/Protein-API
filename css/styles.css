@@ -143,6 +143,10 @@ input.search:focus {
     background-color: #f8f9fa;
 }
 
+input.search:active{
+    scale: calc(0.98);
+}
+
 .menu {
     display: none;
 }
@@ -204,7 +208,7 @@ header .menu button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     margin: 20px;
 }
 
