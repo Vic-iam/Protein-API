@@ -347,8 +347,14 @@ header .menu button:hover {
     }
 
    
-    .index-presentation h2{
-        font-size: 20px;
-
+    .index-presentation h3{
+        font-size: 1.4rem;
     }
+    
+    .index-presentation h4,
+    .index-presentation h5{
+        font-size: 1rem;
+        text-align: center;
+    }
+
 }
